@@ -1,0 +1,10 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+$custom_theme_colors : (
+    'maini': #ffb49a,
+);
+
+$theme_colors: map-merge($custom_theme_colors, $theme_colors);
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss'
