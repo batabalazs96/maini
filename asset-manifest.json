@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/maini/static/css/main.bd3597fc.css",
-    "main.js": "/maini/static/js/main.c8eab8dc.js",
+    "main.js": "/maini/static/js/main.340c057e.js",
     "static/media/big-img.png": "/maini/static/media/big-img.67beb410593752cc1729.png",
     "index.html": "/maini/index.html",
     "main.bd3597fc.css.map": "/maini/static/css/main.bd3597fc.css.map",
-    "main.c8eab8dc.js.map": "/maini/static/js/main.c8eab8dc.js.map"
+    "main.340c057e.js.map": "/maini/static/js/main.340c057e.js.map"
   },
   "entrypoints": [
     "static/css/main.bd3597fc.css",
-    "static/js/main.c8eab8dc.js"
+    "static/js/main.340c057e.js"
   ]
 }
