@@ -94,16 +94,20 @@ const HomePage = () => {
             {/* Kollázs */}
             <div className="row mt-5">
                 <div className="col-md-6">
-                    <InsideBorderedImg src="/kep1.jpg" category="Csini ruci" buttonColor="black" buttonText="Bővebben" />
+                    <InsideBorderedImg src=
+                    "kep1.jpg" category="Csini ruci" buttonColor="black" buttonText="Bővebben" />
 
                 </div>
                 <div className="col-md-3 d-flex flex-column justify-content-between">
-                    <InsideBorderedImg src="/kep2.jpg" category="Csini ruci" buttonColor="black" buttonText="Bővebben" />
-                    <InsideBorderedImg src="/kep3.jpg" category="Csini ruci" buttonColor="black" buttonText="Bővebben" />
+                    <InsideBorderedImg src=
+                    "kep2.jpg" category="Csini ruci" buttonColor="black" buttonText="Bővebben" />
+                    <InsideBorderedImg src=
+                    "kep3.jpg" category="Csini ruci" buttonColor="black" buttonText="Bővebben" />
 
                 </div>
                 <div className="col-md-3">
-                    <InsideBorderedImg src="/keph.jpg" category="Csini ruci" buttonColor="black" buttonText="Bővebben" />
+                    <InsideBorderedImg src=
+                    "keph.jpg" category="Csini ruci" buttonColor="black" buttonText="Bővebben" />
                 </div>
             </div>
 
@@ -117,7 +121,8 @@ const HomePage = () => {
                         <a href="">
                             <div className="post-thumbnail">
                                 <div className="responsive-image">
-                                    <img src="/Blog/7 dolog a C-vitaminról, amit érdemes tudnod.jpg" className="responsive-image__image" />
+                                    <img src=
+                                    "Blog/7 dolog a C-vitaminról, amit érdemes tudnod.jpg" className="responsive-image__image" />
                                 </div>
                             </div>
                         </a>
@@ -126,7 +131,8 @@ const HomePage = () => {
                         <a href="">
                             <div className="post-thumbnail">
                                 <div className="responsive-image">
-                                    <img src="/Blog/2022 tavasz pantone szín.jpg" className="responsive-image__image" />
+                                    <img src=
+                                    "Blog/2022 tavasz pantone szín.jpg" className="responsive-image__image" />
                                 </div>
                             </div>
                         </a>
@@ -135,7 +141,8 @@ const HomePage = () => {
                         <a href="">
                             <div className="post-thumbnail">
                                 <div className="responsive-image">
-                                    <img src="/Blog/A színek hatása a hangulatodra.jpg" className="responsive-image__image" />
+                                    <img src=
+                                    "Blog/A színek hatása a hangulatodra.jpg" className="responsive-image__image" />
                                 </div>
                             </div>
                         </a>
@@ -144,7 +151,8 @@ const HomePage = () => {
                         <a href="">
                             <div className="post-thumbnail">
                                 <div className="responsive-image">
-                                    <img src="/Blog/Hogyan keljek fel könnyen.jpg" className="responsive-image__image" />
+                                    <img src=
+                                    "Blog/Hogyan keljek fel könnyen.jpg" className="responsive-image__image" />
                                 </div>
                             </div>
                         </a>
@@ -153,7 +161,8 @@ const HomePage = () => {
                         <a href="">
                             <div className="post-thumbnail">
                                 <div className="responsive-image">
-                                    <img src="/Blog/Küzdj meg a tavaszi fáradtsággal.jpg" className="responsive-image__image" />
+                                    <img src=
+                                    "Blog/Küzdj meg a tavaszi fáradtsággal.jpg" className="responsive-image__image" />
                                 </div>
                             </div>
                         </a>
@@ -162,7 +171,8 @@ const HomePage = () => {
                         <a href="">
                             <div className="post-thumbnail">
                                 <div className="responsive-image">
-                                    <img src="/Blog/Mit Vegyek Fel Esküvőre Vendégként.jpg" className="responsive-image__image" />
+                                    <img src=
+                                    "Blog/Mit Vegyek Fel Esküvőre Vendégként.jpg" className="responsive-image__image" />
                                 </div>
                             </div>
                         </a>

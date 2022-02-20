@@ -55,7 +55,7 @@ export const Footer = () => {
                             <div className='row'>
                                 <div className="col-md-4 col-6 "><a className="navbar-brand text-white oregano mx-0 d-flex justify-content-start" id="logo" href="https://maini.hu">{t('mainPage:navbar.logo')}</a></div>
                                 <div className="responsive-image col-12 col-md-4 order-1 py-3 py-md-0" >
-                                            <img className="img-fluid" src="/CIB_es_kartyalogok.png" />
+                                            <img className="img-fluid" src="CIB_es_kartyalogok.png" />
                                 </div>
                                 <div className="col-md-4 col-6 align-items-center d-flex justify-content-end order-md-2">
                                     <ul className="list-unstyled d-flex m-0">
