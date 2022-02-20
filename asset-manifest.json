@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/maini/static/css/main.bd3597fc.css",
+    "main.js": "/maini/static/js/main.62189eb6.js",
+    "static/media/big-img.png": "/maini/static/media/big-img.67beb410593752cc1729.png",
+    "index.html": "/maini/index.html",
+    "main.bd3597fc.css.map": "/maini/static/css/main.bd3597fc.css.map",
+    "main.62189eb6.js.map": "/maini/static/js/main.62189eb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd3597fc.css",
+    "static/js/main.62189eb6.js"
+  ]
+}
