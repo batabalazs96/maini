@@ -1,18 +1,25 @@
 import React from "react"
 import './App.css';
 import NavBar from "./conponents/NavBar/NavBar";
-import TestComponent from "./conponents/TestComponent";
+import { useTranslation } from 'react-i18next';
+import Carousel from "./conponents/Carousel/Carousel";
+import { Routes, BrowserRouter, Route } from 'react-router-dom';
+import HomePage from "./containers/HomePage/HomePage";
+import { Footer } from "./conponents/Footer/Footer";
 
 const App = () => {
+  const { t } = useTranslation();
   return (
-    <><NavBar /><div className="container">
-      <div className="row justify-content-center">
-        <div className="col-md-3 d-flex flex-column text-center">
-          <TestComponent />
-        </div>
-      </div>
-    </div></>
-  );
+  <BrowserRouter>
+    <NavBar />
+    <Routes>
+      <Route
+        element={<HomePage/>}
+        path='/'
+      ></Route>
+    </Routes>
+    <Footer/>
+  </BrowserRouter>)
 }
 
 export default App;

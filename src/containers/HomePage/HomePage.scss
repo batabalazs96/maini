@@ -1,0 +1,26 @@
+.big-homepage-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60vh;
+    background-image: url(/containers/HomePage/big-img.png);
+    background-size: cover;
+}
+.news-btn{
+    width: 20rem !important ;
+    height: 40px;
+    border: 2px double black !important;
+    text-align: center;
+}
+@media screen and (max-width: 990px) {
+    .carousel-row {
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .container-fluid {
+        padding-right: 5vw !important;
+        padding-left: 5vw !important;
+     }
+}

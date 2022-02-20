@@ -1,0 +1,35 @@
+.responsive-image {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive-image .text{
+    bottom: 20%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    button.white{
+        background-color: #fff;
+        color: #000;
+        border:  none;
+    }
+    button.black{
+        background-color: #000;
+        color: #fff;
+        border:  none;
+    }
+    
+}
+
+.responsive-image__image {
+    outline: 1px solid rgba(255, 255, 255, 0.604);
+     outline-offset: -1rem;
+    width: 100%;
+    height: 100%;
+}
+

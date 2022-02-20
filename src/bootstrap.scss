@@ -7,9 +7,11 @@ $font-family-base : 'Roboto', sans-serif;
 @import "../node_modules/bootstrap/scss/mixins";
 
 $maini: #ffb49a;
+$maini-pink: #FF4F79;
 
 $custom-theme-colors: (
-  "maini": $maini
+  "maini": $maini,
+  "maini-pink": $maini-pink
 );
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
