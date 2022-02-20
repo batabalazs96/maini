@@ -15,7 +15,7 @@ const App = () => {
     <Routes>
       <Route
         element={<HomePage/>}
-        path='/'
+        path='/maini'
       ></Route>
     </Routes>
     <Footer/>
