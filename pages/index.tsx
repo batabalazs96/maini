@@ -9,7 +9,6 @@ import styles from '../styles/HomePage.module.scss'
 import { InstaFeed } from '../conponents/InstaFeed/InstaFeed'
 import axios from 'axios'
 const Home: NextPage = ({srcs}:any) => {
-  console.log(srcs);
   return (<>
     {/* <HomePage /> */}
     <div>
