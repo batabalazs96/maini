@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css2?family=Oregano);
+$oregano: 'Oregano', serif;
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+.oregano {
+  font-family: $oregano;
+}
+@media screen and (min-width: 990px) {
+  .container-fluid.main {
+      padding-right: 5vw !important;
+      padding-left: 5vw !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .feature-div {
+      padding-bottom: 2rem;
+  }
+  
+}
+@media screen and (max-width: 1200px) {
+  .swiper-button-next-unique, .swiper-button-prev-unique {
+      cursor: pointer;
+  }
+  .swiper-button-prev {
+      left: -1rem;
+  }
+  .feature-div {
+      padding-bottom: 2rem;
+  }
+  
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #333333 !important;
+}
+.feature-icon {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 1rem;
+}
+
+.feature-div {
+  p {
+      font-size: 0.8rem;
+      text-align: center;
+  }
+}

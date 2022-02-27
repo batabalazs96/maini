@@ -1,0 +1,85 @@
+.big_homepage_img {
+    position: relative;
+    height: 60vh;
+    padding: 0 5%;
+    .landing_img{
+        z-index: 0;
+    }
+    .big_img_content {
+        position: relative;
+        z-index: 20;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-bottom: 40px;
+        p {
+            font-size: 20px;
+            margin: 0;
+            font-weight: 400;
+        }
+        h3 {
+            margin: 0;
+            font-size: clamp(12px, 6vw, 45px);
+            font-weight: 600;
+            margin-bottom: 2%;
+        }
+        .sztorihoz_btn {
+            padding: 1% 2%;
+            background-color: white;
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.inside_bordered_img {
+    img {
+        outline: 1px solid rgba(255, 255, 255, 0.604);
+        outline-offset: -1rem;
+    }
+    .text {
+        right: 0;
+        left: 0;
+        width: 100%;
+        bottom: 20%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        button.white {
+            background-color: #fff;
+            color: #000;
+            border: none;
+        }
+        button.black {
+            background-color: #000;
+            color: #fff;
+            border: none;
+        }
+    }
+}
+
+.big_homepage_img::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.267);
+    height: 60vh;
+    width: 100%;
+    z-index: 1;
+}
+.news_btn {
+    width: 20rem !important ;
+    height: 40px;
+    border: 2px double black !important;
+    text-align: center;
+}
+@media screen and (max-width: 990px) {
+    .carousel-row {
+        overflow-x: scroll;
+    }
+}
+

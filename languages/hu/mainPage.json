@@ -1,0 +1,14 @@
+{
+    "title": "Maini - minden benned kezdődik",
+    "navbar": {
+        "logo": "Maini",
+        "sale": "SALE",
+        "new": "ÚJ",
+        "clothes": {
+            "title": "Ruhák",
+            "basic": "BASICS",
+            "r-t": "Ruhák és tunikák",
+            "jackets": "Kabátok"
+        }
+    }
+}
